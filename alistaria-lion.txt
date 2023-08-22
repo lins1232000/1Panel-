@@ -1,0 +1,74 @@
+
+
+https://www.youtube.com/watch?v=4qj8DRGPT-I&t=37s
+
+https://kejilion.blogspot.com/2022/08/blog-post_17.html
+
+Aria2离线下载及Alist文件管理面板搭建命令
+- 八月 17, 2022
+ # 更新软件包
+
+apt update  /Ubuntu
+
+yum update -y /centOS
+
+
+
+# 安装基础组件
+
+apt install sudo wget curl  /Ubuntu
+
+yum install sudo wget curl /centOS
+
+
+
+# 安装Aria2增强版
+
+apt install sudo wget curl ca-certificates
+
+wget -N git.io/aria2.sh && chmod +x aria2.sh
+
+./aria2.sh
+
+
+
+# 安装Alist
+
+curl -fsSL "https://alist.nn.ci/v3.sh" | bash -s install
+
+
+
+更新Alist
+
+curl -fsSL "https://alist.nn.ci/v3.sh" | bash -s update
+
+
+
+
+卸载Alist
+
+curl -fsSL "https://alist.nn.ci/v3.sh" | bash -s uninstall
+
+
+
+
+
+
+
+
+
+
+
+宝塔反代后无法上传大文件和视频无法播放的解决办法 (kejilion.blogspot.com)
+
+
+
+
+
+网盘挂载
+
+阿里云盘 | Alist Document (nn.ci)
+
+OneDrive | Alist Document (nn.ci)
+
+谷歌云盘 | Alist Document (nn.ci)
